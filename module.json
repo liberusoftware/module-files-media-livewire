@@ -3,7 +3,7 @@
   "name": "files-media-livewire",
   "display_name": "Files and Media Livewire",
   "description": "Files and Media livewire presentation adapter.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "presentation",
   "provider": "Liberu\\Foundation\\FilesMediaLivewire\\FilesMediaLivewireServiceProvider",
   "requires": {
@@ -24,4 +24,3 @@
     "Accessible loading, empty, denied, and failure states"
   ]
 }
-

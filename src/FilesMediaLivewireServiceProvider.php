@@ -12,7 +12,6 @@ final class FilesMediaLivewireServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'files-media-livewire');
-        Livewire\Livewire::component('files-media-livewire-overview', Liberu\Foundation\FilesMediaLivewire\Livewire\Overview::class);
+        Livewire::component('files-media-livewire-overview', Liberu\Foundation\FilesMediaLivewire\Livewire\Overview::class);
     }
 }
-
